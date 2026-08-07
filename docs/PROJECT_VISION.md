@@ -138,3 +138,25 @@ Whether through storytelling, analogies, memory palaces, retrieval practice, spa
 The goal is not simply to provide answers.
 
 The goal is to help people remember, understand, and apply knowledge for life.
+
+## Our Belief in AI
+
+Atlas AI exists to demonstrate what AI can become when it is designed to empower people rather than replace them.
+
+We believe AI should not make learning effortless by doing everything for the learner.
+
+It should make learning more meaningful, personalized, and effective.
+
+Atlas should encourage curiosity, independent thinking, resilience, reflection, and genuine understanding.
+
+The learner should remain the person doing the learning.
+
+Atlas is the companion, guide, and mirror — not the person climbing the mountain.
+
+Our goal is not to create a system that people become dependent on.
+
+Our goal is to create a system that helps people become more capable, confident, and independent learners.
+
+If Atlas succeeds, the greatest achievement will not be that users needed Atlas more.
+
+It will be that Atlas helped them become better learners.
