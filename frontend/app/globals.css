@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  /* Atlas core colors */
+  --background: #f7f6f1;
+  --surface: #fcfbf8;
+
+  --sage: #5F9F8A;  /*#5F9F8A*/ /*#b8cdbb*/
+  --blue: #598CC0;  /*#598CC0*/ /*#b9c9d8*/
+  --lavender: #8B6FD6;  /* #8B6FD6*/ /*#c8c0d6*/
+  --sand: #E6A04B;     /*#E6A04B*/ /*#e8d8c4*/
+
+  --text: #3f4442;
+  --muted-text: #7a807d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+
+  --color-sage: var(--sage);
+  --color-blue: var(--blue);
+  --color-lavender: var(--lavender);
+  --color-sand: var(--sand);
+
+  --color-text: var(--text);
+  --color-muted-text: var(--muted-text);
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-dm-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-inter), sans-serif;
+  margin: 0;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  color: var(--text);
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition: color 250ms ease;
+}
+
+.nav-link::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+
+  width: 0;
+  height: 2px;
+
+  border-radius: 999px;
+
+  transition: width 0.4s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+/* Home — Sage */
+.nav-home:hover {
+  color: var(--sage);
+}
+
+.nav-home::after {
+  background-color: var(--sage);
+}
+
+
+/* Learn — Blue */
+.nav-learn:hover {
+  color: var(--blue);
+}
+
+.nav-learn::after {
+  background-color: var(--blue);
+}
+
+
+/* Progress — Sand */
+.nav-progress:hover {
+  color: var(--sand);
+}
+
+.nav-progress::after {
+  background-color: var(--sand);
+}
+
+
+/* Achievements — Lavender */
+.nav-achievements:hover {
+  color: var(--lavender);
+}
+
+.nav-achievements::after {
+  background-color: var(--lavender);
+}
+
+.nav-plant:hover {
+   color: var(--sage);
+}
+
+.nav-plant::after {
+  background-color: var(--sage);
+}
